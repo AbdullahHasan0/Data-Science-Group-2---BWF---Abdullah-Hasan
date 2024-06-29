@@ -1,0 +1,22 @@
+OrderDate,Region,Category,Product,Quantity,UnitPrice
+2023-01-01,East,Office Supplies,Pens,10,1.99
+2023-01-02,West,Technology,Laptop,2,899.99
+2023-01-02,East,Furniture,Chair,5,49.99
+2023-01-03,South,Office Supplies,Notebooks,3,4.99
+2023-01-04,West,Technology,Mouse,15,19.99
+2023-01-05,East,Office Supplies,Pencils,8,0.99
+2023-01-06,East,Furniture,Desk,2,199.99
+2023-01-07,West,Technology,Keyboard,5,49.99
+2023-01-08,East,Office Supplies,Paper,20,5.99
+2023-01-09,South,Furniture,Table,1,299.99
+2023-01-10,East,Technology,Monitor,3,249.99
+2023-01-11,West,Office Supplies,Stapler,4,9.99
+2023-01-12,East,Technology,Printer,1,399.99
+2023-01-13,South,Office Supplies,Markers,6,3.99
+2023-01-14,West,Furniture,Sofa,2,599.99
+2023-01-15,East,Office Supplies,Scissors,3,2.99
+2023-01-16,East,Technology,Tablet,4,199.99
+2023-01-17,West,Office Supplies,File Folders,7,6.99
+2023-01-18,East,Furniture,Bookshelf,1,179.99
+2023-01-19,South,Technology,Headphones,3,99.99
+2023-01-20,West,Office Supplies,Tape,5,1.99
