@@ -34,7 +34,7 @@ Open the Gradio interface in your browser and start exploring anime recommendati
 * **Gradio**: For building the user interface.
 * **NLP**: Used for text processing and similarity matching.
 * **Cosine Similarity**: To calculate the similarity between anime genres and synopses.
-* *Count Vectorizer**: To extract important words from the anime descriptions.
+* **Count Vectorizer**: To extract important words from the anime descriptions.
 
 🖼️ Interface Preview
 
