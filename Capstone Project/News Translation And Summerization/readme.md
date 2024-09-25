@@ -32,46 +32,55 @@ pip install newspaper3k
 pip install langdetect
 
 🚀 Usage
-1. Run the Python script:
 
+1. Run the Python script:
 python your_script_name.py
 
-Open the Gradio interface in your browser.
-Enter the URL of an article to fetch, translate, and summarize.
+2. Open the Gradio interface in your browser.
+   
+3. Enter the URL of an article to fetch, translate, and summarize.
 
 ⚡ For Best Results: Run on Google Colab ⚡
+
 To get better performance (especially with GPU), it's recommended to run this project on Google Colab. You can access GPU resources for faster translation and summarization:
 
-Open Google Colab.
+* Open Google Colab.
 
-Upload your script or notebook to Colab.
+* Upload your script or notebook to Colab.
 
-Ensure the runtime is set to GPU (go to Runtime -> Change runtime type -> Select GPU).
+* Ensure the runtime is set to GPU (go to Runtime -> Change runtime type -> Select GPU).
 
-Install the required packages by running:
+* Install the required packages by running:
 
 !pip install gradio
 !pip install transformers
 !pip install newspaper3k
 !pip install langdetect
-Execute the cells, and enjoy improved performance!
+
+* Execute the cells, and enjoy improved performance!
 
 🌟 Example
+
 Simply input the URL of an article written in Arabic, Chinese, or Japanese, and the application will:
 
 🕵️ Detect the language.
 🔄 Translate the article into English.
 📝 Provide a summarized version of the translated article.
+
 🔗 Example URLs
+
 🇦🇪 Arabic: BBC Arabic
 🇯🇵 Japanese: BBC Japanese
 🇪🇸 Spanish (Unsupported): BBC Mundo
 Note: Spanish articles are not supported yet in this version.
 
 🧠 Model Details
+
 Translation Models: Helsinki-NLP's OPUS-MT models for Arabic, Chinese, and Japanese translations.
 Summarization Model: Facebook's BART-Large-CNN for summarizing the translated text.
+
 ⚡ GPU Support
+
 The application checks for GPU availability and will utilize it if present. If no GPU is available, the application will run on the CPU. For faster results, especially with larger texts, using Google Colab with GPU is recommended.
 
 🤝 Contributing
